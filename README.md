@@ -1,2 +1,9 @@
-# tetris-by-godot_4.0-beta2
-simple tetris
+# 极简俄罗斯方块
+
+	此为我本人独立完成的第一个游戏项目, 制作的有些粗糙
+	使用的游戏引擎为 Godot_v4.0-beta2
+	
+# 设计
+
+	游戏主界面是个 GridContainer, 设10列, 开启游戏时, 填充 200 个 透明色的 ColorRect
+	所有图形和颜色都是通过计算后, 改变那 200 个 ColorRect 的颜色实现的
